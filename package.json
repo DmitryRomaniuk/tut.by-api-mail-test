@@ -1,0 +1,28 @@
+{
+  "name": "tut.by-api-mail-test",
+  "version": "1.0.0",
+  "description": "tut.by-mail-test",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha -R spec ./test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DmitryRomaniuk/tut.by-api-mail-test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DmitryRomaniuk/tut.by-api-mail-test/issues"
+  },
+  "homepage": "https://github.com/DmitryRomaniuk/tut.by-api-mail-test#readme",
+  "dependencies": {
+    "chai": "^3.5.0",
+    "imap": "^0.8.17",
+    "mocha": "^2.5.3",
+    "nodemailer": "^2.5.0",
+    "nodemailer-smtp-transport": "^2.6.0",
+    "util": "^0.10.3",
+    "winston": "^2.2.0"
+  }
+}
